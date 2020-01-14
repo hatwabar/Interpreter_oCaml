@@ -1,0 +1,24 @@
+mul
+pushi -6
+pushi -10
+neg
+swap
+mul
+pop
+pop
+pop
+pushb :true:
+pushi 8
+pushi -8
+add
+pushn __MAIN__
+sub
+pushi 500
+pushi 100
+sub
+pushi "str"
+pushb name1
+pushs string
+push 5
+pushn 100
+quit
